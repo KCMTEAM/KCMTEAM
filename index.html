@@ -1,12 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KCMTEAM OFFICIAL</title>
 </head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Sarina&display=swap');
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  .container-pages-1 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.imgur.com/5USTODC.png);
+    clip-path: polygen(0 0, 100% 0, 100% 100%,0 80%);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    animation: 1s linear infinite slide;
+    opacity: .9;
+    overflow-x: hidden;
+  }
+  @keyframes slide{
+    0%{opacity: .9; left: 0;}
+    50%{opacity: .6; left: 2px;}
+    100%{opacity: .9;}
+  }
+  
+  .p-style-1 {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Sarina', cursive;
+  }
+  .content-selection {
+    overflow-x: hidden;
+    display: flex;
+    background: purple;
+  }
+  .h2-style-1, .h1-style-1, .p-style-2 {
+    color: white;
+    font-family: 'Ga Maamli', sans-serif;
+    transform: translateY(-100px);
+  }
+  .container-pages-2 {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+  }
+  .h1-style-2 {
+    color: green;
+    text-align: center;
+    text-shadow: 0px 0px 10px green;
+  }
+  .class-menu-button {
+    position: absolute;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 501px;
+    top: 65px;
+    display: none;
+  }
+  .menu-action {
+    color: white;
+    text-decoration: none;
+    background: none;
+  }
+  .box-div {
+    border: 3px solid white;
+    width: 400px;
+    transform: translateX(45px);
+    overflow-x: hidden;
+    border-radius: 10px;
+  }
+  .class-text {
+    color: white;
+    transform: translateX(20px);
+  }
+  .animation-kcmteam {
+    color: mediumpurple;
+    text-shadow: 0px 0px 5px mediumpurple;
+    animation: 1s linear infinite changeColor;
+  }
+  @keyframes changeColor{
+    0%{
+      color: mediumpurple;
+      text-shadow: 0px 0px 5px mediumpurple;
+    }
+    30%{
+      color: mediumpurple;
+      text-shadow: 0px 0px 10px mediumpurple;
+    }
+    100%{
+      color: mediumpurple;
+      text-shadow: 0px 0px 5px mediumpurple;
+    }
+  }
+  
+  .p-style-2 {
+    color: gold;
+  }
+  .box-in-black {
+    background-color: #444444;
+    width: 250px;
+    height: 30px;
+    transform: translateX(10px) translateY(-10px);
+    border-radius: 10px;
+  }
+  .gray-text {
+    color: gray;
+    transform: translateX(10px) translateY(5px);
+  }
+  .button-link {
+    position: absolute;
+    top: 4px;
+    left: 270px;
+    height: 50px;
+  }
+</style>
 <body>
-    <h1>Welcome to my GitHub Pages website!</h1>
-    <p>This is a simple website hosted with GitHub Pages.</p>
+  <div class="content-selection">
+    <p class="p-style-1">KCMTEAM</p>
+    <button class="button-1-show" style="background: none; border: none; transform: translateX(290px); display: block;" onclick="showMenu()"><img src="https://i.imgur.com/FLLxoeJ.png" width="30px"></button>
+    <button class="button-2-hidden" style="background: none; border: none; transform: translateX(290px); display: none;" onclick="hiddenMenu()"><img src="https://i.imgur.com/FLLxoeJ.png" width="30px"></button>
+    <div class="class-menu-button">
+      <a class="menu-action" href="">DOKUMEN 📑</a><br>
+      <a class="menu-action" href="">GITHUB 🐱</a><br>
+      <a class="menu-action" href="">INSTAGRAM 📸</a><br>
+      <a class="menu-action" href="">FACEBOOK 📚</a><br>
+      <a class="menu-action" href="">DFM FORUMS 💻</a>
+    </div>
+  </div>
+  <div class="container-pages-1">
+    <div class="background-image"></div>
+    <div class="content-banner">
+      <h2 class="h2-style-1">MEMPERKENALKAN.</h2>
+      <h1 class="h1-style-1">KOMUNITI <span class="animation-kcmteam">KCMTEAM</span></h1>
+      <p class="p-style-2">tool percuma dan vip</p>
+    </div>
+  </div>
+  <div class="container-pages-2">
+    <div class="isi-content">
+      <h1 class="h1-style-2">GET STARTED</h1>
+      <div class="box-div">
+        <h3 class="class-text">APPS YOU NEED</h3>
+        <div class="box-in-black">
+          <p class="gray-text">TERMUX APPS</p>
+          <button class="button-link"><a class="link-download" href="">DOWNLOAD</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+<script src="script.js"></script>
 </html>
