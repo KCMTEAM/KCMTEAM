@@ -1,9 +1,26 @@
 ![](https://i.imgur.com/AYw9WBL.png)
 **selamat datang pengguna github kami adalah komuniti yang berperan kepada dua pihak iaitu di bahagian IT dan di bahagian Hacking**
 ## 👤 Informasi Diri
-**Hai!! Nama saya *Mohammad Haipil* saya sangat sukakan teknologi dan membuat teknologi baharu**
-## 🚀 Skills
-Language: `Bash, Python, Java, JavaScript, Lua`
+**Hai!! Nama saya *Mohammad Haipil* saya sangat sukakan teknologi dan membuat teknologi baharu. Selain itu, saya juga sudah 2 tahun dalam sesi ini.**
+## 🚀 Kelebihan
+Language: 
+
+`Bash, Python, Java, JavaScript, Lua, TypeScript, Go, PHP`
+
+Framework: 
+
+`Android Jetpack, Native, Djago, Laravel, Spring, Express.js, Angular, React`
+
+Databases: 
+
+`MySQL, SQLite, Oracle Database, Microsoft SQL Server`
+
+Tools: 
+
+`Git, LazyVim, Mocha, Pytest`
+
+## 🎓 Akedemik
+**Saya bersekolah di Sekolah Menengah Kebangsaan Bugaya II dan saya hanya pelajar biasa tanpa memegang jawatan**
 
 # DISCLAIMER ⚠️
 
