@@ -1,10 +1,6 @@
 ![](https://i.imgur.com/AYw9WBL.png)
 **selamat datang pengguna github kami adalah komuniti yang berperan kepada dua pihak iaitu di bahagian IT dan di bahagian Hacking**
-
-![GitHub Contribution Graph](https://ghchart.rshah.org/KCMTEAM)
-
----
-
+![Snake Animation](https://github.com/KCMTEAM/snk/blob/output/github-contribution-grid-snake-dark.svg)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KCMTEAM&show_icons=true&theme=radical)
 
 ---
