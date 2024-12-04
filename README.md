@@ -1,5 +1,14 @@
 ![](https://i.imgur.com/AYw9WBL.png)
 **selamat datang pengguna github kami adalah komuniti yang berperan kepada dua pihak iaitu di bahagian IT dan di bahagian Hacking**
+
+![GitHub Contribution Graph](https://ghchart.rshah.org/KCMTEAM)
+
+---
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KCMTEAM&show_icons=true&theme=radical)
+
+---
+
 ## 👤 Informasi Diri
 **Hai!! Nama saya *Mohammad Haipil* saya sangat sukakan teknologi dan membuat teknologi baharu. Selain itu, saya juga sudah 2 tahun dalam sesi ini.**
 ## 🚀 Kelebihan
