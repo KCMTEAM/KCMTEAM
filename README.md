@@ -27,17 +27,67 @@ Tools:
 ## 🎓 Akedemik
 **Saya bersekolah di Sekolah Menengah Kebangsaan Bugaya II dan saya hanya pelajar biasa tanpa memegang jawatan**
 
-# DISCLAIMER ⚠️
+# 🌐 KCMTEAM - Ethical Hacking & Cybersecurity Services  
 
-**Peringatan:**
+![LOGO KEMENTERIAN](https://i.imgur.com/ZBZL7QK.png)
 
-Proyek ini **tidak dimaksudkan untuk digunakan dalam kegiatan ilegal, merusak, atau melanggar hukum**. Penggunaan alat ini untuk **hacking** atau aktivitas eksploitasi tanpa izin adalah **salah secara etika** dan dapat melanggar hukum di banyak negara.
+> **Komitmen kami adalah memberikan solusi keamanan siber yang handal, etis, dan profesional sesuai dengan peraturan hukum di Malaysia.**
 
-Pengguna bertanggung jawab penuh atas penggunaan alat ini. Pengembang **tidak bertanggung jawab** atas segala kerusakan yang disebabkan oleh penggunaan yang tidak sah, termasuk tetapi tidak terbatas pada pencurian data, perusakan sistem, atau pelanggaran privasi.
+---
 
-**Kami mendukung penggunaan proyek ini hanya dalam konteks yang sah** seperti:
-- Pengujian keamanan di lingkungan yang telah disetujui.
-- Pengujian penetrasi (pen-test) dengan izin eksplisit dari pemilik sistem.
-- Pembelajaran dan eksplorasi keamanan di jaringan dan sistem yang Anda miliki atau memiliki izin untuk mengakses.
+## 🔍 **Tentang Kami**  
+KCMTEAM adalah tim yang didedikasikan untuk melindungi organisasi dari ancaman dunia maya. Kami mengutamakan transparansi, legalitas, dan kerahasiaan dalam setiap langkah yang kami ambil.  
 
-**Hacking tanpa izin adalah ilegal dan tidak etis.**
+---
+
+## 📜 **Izin dan Kebijakan Etika**  
+
+### ✅ **Izin Tertulis Wajib**  
+Sebelum memulai proyek, kami memastikan telah mendapatkan izin resmi dari pihak terkait. Izin ini mencakup:  
+- Nama pemilik sistem  
+- Lingkup pengujian yang disetujui  
+- Tanda tangan dan tanggal persetujuan  
+
+### 🚫 **Batasan Aktivitas**  
+Kami tidak akan:  
+- Mengakses sistem tanpa izin  
+- Mengubah atau menghapus data klien  
+- Menyalahgunakan informasi yang ditemukan  
+
+---
+
+## 🌟 **Prinsip Kerja Kami**  
+
+### 🔒 **Keamanan Data**  
+Kami menjamin seluruh informasi dan hasil pengujian akan dirahasiakan.  
+
+### ⚖️ **Legalitas**  
+Semua aktivitas mematuhi:  
+- **Akta Jenayah Komputer 1997**  
+- **Akta Komunikasi dan Multimedia 1998**  
+
+### 🤝 **Kerjasama Profesional**  
+Kami mendukung upaya nasional untuk meningkatkan keamanan siber melalui kolaborasi dengan **MyCERT** dan lembaga terkait lainnya.  
+
+---
+
+## 💼 **Layanan Kami**  
+
+| **Layanan**                  | **Deskripsi**                                         |
+|-------------------------------|-----------------------------------------------------|
+| 🔧 **Penetration Testing**    | Mengidentifikasi kelemahan dalam sistem keamanan.   |
+| 🔎 **Vulnerability Assessment** | Menilai risiko dan memberikan solusi perbaikan.     |
+| 🎓 **Pelatihan Keamanan IT**  | Meningkatkan kesadaran dan keterampilan tim IT.     |
+| 🛡️ **Konsultasi Keamanan**     | Membantu perencanaan dan implementasi strategi siber.|
+
+---
+
+## 📞 **Hubungi Kami**  
+
+📧 **Email:** [haipil.dev@gmail.com](mailto:haipil.dev@gmail.com)  
+📱 **Telepon:** +60 18 233 7312  
+🏢 **Alamat:** Sabah, Malaysia   
+
+> 🌟 **Keamanan digital adalah tanggung jawab kita bersama. Mari lindungi dunia maya Anda bersama KCMTEAM!**
+
+---
