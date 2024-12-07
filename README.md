@@ -41,3 +41,13 @@ Pengguna bertanggung jawab penuh atas penggunaan alat ini. Pengembang **tidak be
 - Pembelajaran dan eksplorasi keamanan di jaringan dan sistem yang Anda miliki atau memiliki izin untuk mengakses.
 
 **Hacking tanpa izin adalah ilegal dan tidak etis.**
+
+# Ethical Hacking Project
+Proyek ini bertujuan untuk meningkatkan kesadaran dan keamanan siber di Malaysia, sesuai dengan peraturan yang ditetapkan oleh [Kementerian Komunikasi dan Digital Malaysia](https://www.kkmm.gov.my/).
+
+## Logo Kementerian
+![Logo Kementerian](https://i.imgur.com/ZBZL7QK.png)
+*Sumber: Situs resmi Kementerian Komunikasi dan Digital Malaysia.*
+
+## Disclaimer
+Proyek ini dijalankan secara **etis** dan hanya untuk tujuan pengujian keamanan. Setiap aktivitas dilakukan dengan izin resmi sesuai peraturan hukum di Malaysia.
