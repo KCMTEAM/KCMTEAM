@@ -1,180 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>KCMTEAM OFFICIAL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCMTEAM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 1.6;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .header {
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            backdrop-filter: blur(5px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .menu-toggle {
+            display: none;
+            cursor: pointer;
+        }
+
+        .hamburger {
+            width: 25px;
+            height: 3px;
+            background-color: #ffffff;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .hamburger::before,
+        .hamburger::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            position: absolute;
+            transition: all 0.3s;
+        }
+
+        .hamburger::before {
+            top: -8px;
+        }
+
+        .hamburger::after {
+            top: 8px;
+        }
+
+        .menu-toggle.active .hamburger {
+            background-color: transparent;
+        }
+
+        .menu-toggle.active .hamburger::before {
+            transform: rotate(45deg);
+            top: 0;
+        }
+
+        .menu-toggle.active .hamburger::after {
+            transform: rotate(-45deg);
+            top: 0;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 8px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #B337FF;
+            border-radius: 5px;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 100px 20px;
+            background: #1e1e1e;
+            color: #ffffff;
+        }
+
+        .intro h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .intro a {
+            background: #B337FF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .services {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .service-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .icon {
+            font-size: 40px;
+            color: #B337FF;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .skills, .github-activities, .hacking-permission {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+            text-align: center;
+            border-top: 5px solid #B337FF;
+        }
+
+        .skills h2, .github-activities h2, .hacking-permission h2 {
+            margin-bottom: 20px;
+        }
+
+        .skills-list, .github-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-list li, .github-list li {
+            background: #333333;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background: #1e1e1e;
+        }
+
+        .footer-section {
+            text-align: center;
+        }
+
+        .footer-section h3 {
+            color: #B337FF;
+            margin-bottom: 15px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer-section ul li a:hover {
+            color: #B337FF;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-links a {
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .social-links a:hover {
+            color: #B337FF;
+        }
+
+        #scroll-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #B337FF;
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #scroll-top:hover {
+            background-color: #ff4f4f;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links.active {
+                display: flex;
+                flex-direction: column;
+                background: rgba(0, 0, 0, 0.7);
+                padding: 20px;
+                position: absolute;
+                top: 60px;
+                width: 100%;
+                left: 0;
+                z-index: 999;
+            }
+
+            .social-links {
+                margin-top: 20px;
+            }
+        }
+    </style>
 </head>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Sarina&display=swap');
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-  }
-  .container-pages-1 {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(https://i.imgur.com/5USTODC.png);
-    clip-path: polygen(0 0, 100% 0, 100% 100%,0 80%);
-    z-index: -1;
-    background-size: cover;
-    background-position: center;
-    animation: 1s linear infinite slide;
-    opacity: .9;
-    overflow-x: hidden;
-  }
-  @keyframes slide{
-    0%{opacity: .9; left: 0;}
-    50%{opacity: .6; left: 2px;}
-    100%{opacity: .9;}
-  }
-  
-  .p-style-1 {
-    position: relative;
-    left: 20px;
-    font-size: 20px;
-    color: white;
-    font-family: 'Sarina', cursive;
-  }
-  .content-selection {
-    overflow-x: hidden;
-    display: flex;
-    background: purple;
-  }
-  .h2-style-1, .h1-style-1, .p-style-2 {
-    color: white;
-    font-family: 'Ga Maamli', sans-serif;
-    transform: translateY(-100px);
-  }
-  .container-pages-2 {
-    padding: 0;
-    margin: 0;
-    background-color: #000000;
-  }
-  .h1-style-2 {
-    color: green;
-    text-align: center;
-    text-shadow: 0px 0px 10px green;
-  }
-  .class-menu-button {
-    position: absolute;
-    display: flexbox;
-    flex-direction: column;
-    align-items: center;
-    background-color: purple;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100px;
-    width: 501px;
-    top: 65px;
-    display: none;
-  }
-  .menu-action {
-    color: white;
-    text-decoration: none;
-    background: none;
-  }
-  .box-div {
-    border: 3px solid white;
-    width: 400px;
-    transform: translateX(45px);
-    overflow-x: hidden;
-    border-radius: 10px;
-  }
-  .class-text {
-    color: white;
-    transform: translateX(20px);
-  }
-  .animation-kcmteam {
-    color: mediumpurple;
-    text-shadow: 0px 0px 5px mediumpurple;
-    animation: 1s linear infinite changeColor;
-  }
-  @keyframes changeColor{
-    0%{
-      color: mediumpurple;
-      text-shadow: 0px 0px 5px mediumpurple;
-    }
-    30%{
-      color: mediumpurple;
-      text-shadow: 0px 0px 10px mediumpurple;
-    }
-    100%{
-      color: mediumpurple;
-      text-shadow: 0px 0px 5px mediumpurple;
-    }
-  }
-  
-  .p-style-2 {
-    color: gold;
-  }
-  .box-in-black {
-    background-color: #444444;
-    width: 250px;
-    height: 30px;
-    transform: translateX(10px) translateY(-10px);
-    border-radius: 10px;
-  }
-  .gray-text {
-    color: gray;
-    transform: translateX(10px) translateY(5px);
-  }
-  .button-link {
-    position: absolute;
-    top: 4px;
-    left: 270px;
-    height: 50px;
-  }
-</style>
 <body>
-  <div class="content-selection">
-    <p class="p-style-1">KCMTEAM</p>
-    <button class="button-1-show" style="background: none; border: none; transform: translateX(290px); display: block;" onclick="showMenu()"><img src="https://i.imgur.com/FLLxoeJ.png" width="30px"></button>
-    <button class="button-2-hidden" style="background: none; border: none; transform: translateX(290px); display: none;" onclick="hiddenMenu()"><img src="https://i.imgur.com/FLLxoeJ.png" width="30px"></button>
-    <div class="class-menu-button">
-      <a class="menu-action" href="">DOKUMEN 📑</a><br>
-      <a class="menu-action" href="">GITHUB 🐱</a><br>
-      <a class="menu-action" href="">INSTAGRAM 📸</a><br>
-      <a class="menu-action" href="">FACEBOOK 📚</a><br>
-      <a class="menu-action" href="">DFM FORUMS 💻</a>
-    </div>
-  </div>
-  <div class="container-pages-1">
-    <div class="background-image"></div>
-    <div class="content-banner">
-      <h2 class="h2-style-1">MEMPERKENALKAN.</h2>
-      <h1 class="h1-style-1">KOMUNITI <span class="animation-kcmteam">KCMTEAM</span></h1>
-      <p class="p-style-2">tool percuma dan vip</p>
-    </div>
-  </div>
-  <div class="container-pages-2">
-    <div class="isi-content">
-      <h1 class="h1-style-2">GET STARTED</h1>
-      <div class="box-div">
-        <h3 class="class-text">APPS YOU NEED</h3>
-        <div class="box-in-black">
-          <p class="gray-text">TERMUX APPS</p>
-          <button class="button-link"><a class="link-download" href="">DOWNLOAD</a></button>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://i.imgur.com/clX9ACG.png" alt="KCMTEAM Logo">
+            </div>
+            <div class="menu-toggle">
+                <span class="hamburger"></span>
+            </div>
+            <h1 style="transform: translateX(260px)">KCMTEAM</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Welcome to KCMTEAM</h1>
+            <p>Your all-in-one solution for project management and collaboration.</p>
+            <a href="#">Learn More</a>
+        </section>
+
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <i class="icon fas fa-code"></i>
+                    <h3>Custom Code Solutions</h3>
+                    <p>Tailored solutions for your specific needs and requirements.</p>
+                </div>
+                <div class="card">
+                    <i class="icon fas fa-cogs"></i>
+                    <h3>Configuration Management</h3>
+                    <p>Manage configurations efficiently with our streamlined tools.</p>
+                </div>
+                <div class="card">
+                    <i class="icon fas fa-server"></i>
+                    <h3>Server Management</h3>
+                    <p>Maintain and monitor your servers to ensure optimal performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Web Development</li>
+                <li>Project Management</li>
+                <li>Server Management</li>
+
+                <li>Configuration Management</li>
+                <li>Security Audits</li>
+            </ul>
+        </section>
+
+        <section class="github-activities">
+            <h2>GitHub Activities</h2>
+            <ul class="github-list">
+                <li>Contributing to open-source projects</li>
+                <li>Maintaining personal repositories</li>
+                <li>Collaborating with other developers</li>
+                <li>Sharing knowledge through documentation</li>
+            </ul>
+        </section>
+
+        <section class="hacking-permission">
+            <h2>Hacking Permission</h2>
+            <p>We adhere to ethical hacking principles. Our activities are conducted with permission and full consent of the involved parties. We aim to provide security insights and remediation strategies for improved safety and security.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: support@kcmteam.com</li>
+                    <li>Phone: +1 800 123 456</li>
+                    <li>Address: 123 Main Street, Anytown, USA</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </footer>
+
+    <button id="scroll-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+
+            // Scroll to top functionality
+            const scrollTopBtn = document.getElementById('scroll-top');
+            scrollTopBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Show/hide scroll to top button based on scroll position
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    scrollTopBtn.style.display = 'block';
+                } else {
+                    scrollTopBtn.style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
-<script src="script.js"></script>
 </html>
