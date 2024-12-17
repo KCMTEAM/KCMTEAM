@@ -1,42 +1,65 @@
 ![](https://i.imgur.com/AYw9WBL.png)
 **selamat datang pengguna github kami adalah komuniti yang berperan kepada dua pihak iaitu di bahagian IT dan di bahagian Hacking**
 ![Snake Animation](https://github.com/KCMTEAM/snk/blob/output/github-contribution-grid-snake-dark.svg)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KCMTEAM&show_icons=true&theme=radical)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" />
+</p>
 
 ---
 
-## 👤 Informasi Diri
-**Hai!! Nama saya *Mohammad Haipil* saya sangat sukakan teknologi dan membuat teknologi baharu. Selain itu, saya juga sudah 2 tahun dalam sesi ini.**
-## 🚀 Kelebihan
-Language: 
+<h1 align="center" style="color:#8e44ad;">Hi, I'm Haipil</h1>
+<h3 align="center" style="color:#9b59b6;">🚀 Student | Developer | Coding Enthusiast</h3>
 
-`Bash, Python, Java, JavaScript, Lua, TypeScript, Go, PHP`
-
-Framework: 
-
-`Android Jetpack, Native, Djago, Laravel, Spring, Express.js, Angular, React`
-
-Databases: 
-
-`MySQL, SQLite, Oracle Database, Microsoft SQL Server`
-
-Tools: 
-
-`Git, LazyVim, Mocha, Pytest`
-
-## 🎓 Akedemik
-**Saya bersekolah di Sekolah Menengah Kebangsaan Bugaya II dan saya hanya pelajar biasa tanpa memegang jawatan**
-
-# 🌐 KCMTEAM - Ethical Hacking & Cybersecurity Services  
-
-![LOGO KEMENTERIAN](https://i.imgur.com/ZBZL7QK.png)
-
-> **Komitmen kami adalah memberikan solusi keamanan siber yang handal, etis, dan profesional sesuai dengan peraturan hukum di Malaysia.**
+<!-- Animated Typing -->
+<p align="center">
+  <a href="https://github.com/KCMTEAM">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=4000&pause=1000&color=8E44AD&center=true&width=435&lines=Student+at+SMK+Bugaya+2;17+years+old;Coding+for+3+years;Top+lang+and+framework+user;Passionate+about+databases" alt="Typing SVG" />
+  </a>
+</p>
 
 ---
 
-## 🔍 **Tentang Kami**  
-KCMTEAM adalah tim yang didedikasikan untuk melindungi organisasi dari ancaman dunia maya. Kami mengutamakan transparansi, legalitas, dan kerahasiaan dalam setiap langkah yang kami ambil.  
+## 🚀 **About Me**:
+- 🎓 **Student** at **SMK Bugaya 2**
+- 💻 **Coding Experience**: 3 years  
+- 🔭 Currently learning **C++**, **Golang**, and **JavaScript**  
+- 🌐 Enjoys **Web Development**, **Shell Scripting**, and **Cybersecurity**  
+- 🎮 Fun fact: Loves **gaming** and exploring new hacking challenges.
+
+---
+
+## 📊 **GitHub Stats & Activities**:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KCMTEAM&show_icons=true&theme=radical" alt="GitHub Stats" width="48%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KCMTEAM&theme=radical" alt="GitHub Streak" width="48%"/>
+</p>
+
+---
+
+## 🔥 **Top Projects**:
+<p align="center">
+  <a href="https://github.com/KCMTEAM/KCMTEAM">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KCMTEAM&repo=KCMTEAM&theme=radical" alt="KCMTEAM"/>
+  </a>
+  <a href="https://github.com/KCMTEAM/Generator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KCMTEAM&repo=Generator&theme=radical" alt="Generator"/>
+  </a>
+</p>
+
+---
+
+<p align="center">✨ **Thanks for stopping by!** ✨</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KCMTEAM&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" /> 
+</p>
+
 
 ---
 
