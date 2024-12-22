@@ -13,9 +13,7 @@
 ---
 
 ## 🌟 **Tentang Saya**  
-
 **📝 Nama**: Haipil
-
 **🎂 Umur**: 17 tahun  
 **📍 Lokasi**: Malaysia 🇲🇾  
 **🏫 Sekolah**: SMK Bugaya 2  
