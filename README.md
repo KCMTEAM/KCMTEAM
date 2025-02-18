@@ -35,24 +35,15 @@
 
 ---
 
-## 🛡️ **Izin Hacking Resmi**  
-<div align="center">  
-  <img src="https://i.imgur.com/ZBZL7QK.png" alt="Logo Kementerian Malaysia" width="200">  
-</div>  
-
-Semua aktivitas hacking dilakukan **dengan izin resmi** dan mengikuti hukum yang berlaku di Malaysia.  
-
----
-
-## 🧑‍💻 **Hubungi Saya**  
-Anda bisa terhubung dengan saya di:  
+## 🧑‍💻 **連絡してください**  
+次の場所で私と連絡を取ることができます:  
 - **GitHub**: [KCMTEAM](https://github.com/KCMTEAM)  
-- **Email**: haipil.dev@gmail.com
+- **電子メール**: haipil.dev@gmail.com
 
 ---
 
 <div align="center">  
-  Terima kasih telah mengunjungi profil saya! Jangan lupa untuk bintangi proyek saya 🌟.
+  私のプロフィールをご覧いただきありがとうございます!私のプロジェクトにスターを付けることを忘れないでください🌟。
 </div>  
 
 <div align="center">  
