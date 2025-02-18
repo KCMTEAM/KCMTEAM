@@ -5,10 +5,10 @@
 <div align="center">
   <h2>  
     <a href="https://github.com/KCMTEAM">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E94E3&center=true&width=435&lines=Halo!+Nama+saya+Haipil.;Seorang+pelajar+dan+developer!;Saya+hobi+bermain+sportbikes+%F0%9F%8F%8D%EF%B8%8F.;Belajar+teknologi+adalah+passion+saya.">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=AA60C8&center=true&width=435&lines=こんにちは!!+私はタロウです;S私は開発者で科学コンピューターの学生です">
     </a>
   </h2>
-</div>
+</div>      
 
 ---
 
