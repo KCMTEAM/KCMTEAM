@@ -5,22 +5,21 @@
 <div align="center">
   <h2>  
     <a href="https://github.com/KCMTEAM">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=AA60C8&center=true&width=435&lines=こんにちは!!+私はタロウです;S私は開発者で科学コンピューターの学生です">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=AA60C8&center=true&width=435&lines=こんにちは!!,+私はタロウです;S私は開発者で科学コンピューターの学生です">
     </a>
   </h2>
 </div>      
 
 ---
 
-## 🌟 **Tentang Saya**  
-**📝 Nama**: Haipil <br>
-**🎂 Umur**: 17 tahun  
-**📍 Lokasi**: Malaysia 🇲🇾  
-**🏫 Sekolah**: SMK Bugaya 2  
-**⚡ Hobi**:  
-- **🏍️ Sportbikes**: Kecepatan adalah passion saya.  
-- **🎮 Video Games**: Dunia virtual yang penuh tantangan!  
-- **📚 Coding & Belajar**: Setiap hari adalah waktu untuk belajar sesuatu yang baru.  
+## 🌟 **私について**  
+**📝 名前**: タロウ<br>
+**🎂 年齢**: 17 歳  <br>
+**📍 場所**: 日本語 <br>
+**⚡ 趣味**:  
+- **🏍️ スポーツバイク**: スピードは私の情熱です。  
+- **🎮ビデオゲーム**: 挑戦に満ちた仮想世界!  
+- **📚 コーディングと学習**: 毎日が何か新しいことを学ぶ時間です。
 
 <div align="center">  
   <img src="https://github-readme-stats.vercel.app/api?username=KCMTEAM&show_icons=true&theme=tokyonight" alt="Statistik GitHub" height="180">  
