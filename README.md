@@ -26,7 +26,7 @@
 </div>  
 
 <div align="center">  
-  <img src="https://skillicons.dev/icons?i=javascript,go,cpp,html,css,python" alt="Bahasa Pemrograman" width="50%">  
+  <img src="https://skillicons.dev/icons?i=php,lua,python,java,bash" alt="Bahasa Pemrograman" width="50%">  
 </div>  
 
 <div align="center">  
